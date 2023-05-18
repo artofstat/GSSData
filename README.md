@@ -1,12 +1,12 @@
-# PracticumI
+# GSS Data Editor
 
-In this repository,
+This shiny app lets users download data from the General Social Survey (GSS)
 
-You can find the project I worked on GSS Data from 1972 to 2021 that lets users to
+Users should be able to select one or two variables.
+Users should be able to filter by year, or select multiple years.
+App should show frequency/contingency table of selected variables, and corresponding plot.
 
-* view data by filtering by year(s) and selecting variable(s)
-* download the filtered data as csv file
-* view descriptive analysis and graphs of a selected single variable.
+Files currently included:
 
 
 __Data_Preprocessing.Rmd__ : Filtered the original data by years and variables, converted variable types into factors and save as csv file.
